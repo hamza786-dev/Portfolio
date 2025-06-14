@@ -1,0 +1,10 @@
+.tab-button.active {
+  border-bottom: 2px red groove;  
+
+}
+
+.tab-content {
+  /* padding: 20px; */
+  background-color: transparent;
+  
+}

@@ -1,0 +1,107 @@
+.contain {
+    position: relative;
+    width: 80%;
+  }
+  
+  .ig {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s linear;
+    background-color: #008CBA;
+    border-radius: 20px;
+  }
+  
+  .contain:hover .overlay {
+    opacity: 1;
+  }
+  
+  .tex {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .portfolio{
+    background: linear-gradient(#36454F,black);
+  }
+  .port{
+    color: white;
+    font-size: 45px;
+    padding-left: 170px;
+    padding-top: 50px;
+    font-weight: bolder;
+  }
+.detail{
+  width: 300px;
+}
+
+
+
+
+/* IMG2 */
+.contai {
+  position: relative;
+  width: 80%;
+}
+
+.ige {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s linear;
+  background-color: #008CBA;
+  border-radius: 20px;
+}
+
+.contai:hover .overlays {
+  opacity: 1;
+}
+
+.texx {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.details{
+width: 300px;
+}

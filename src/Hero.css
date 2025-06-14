@@ -1,0 +1,26 @@
+#main{
+    color: white;
+}
+.row{
+    background: linear-gradient(black,#36454f);
+    padding-left: 150px;
+    padding-top: 200px;
+    margin-top: -12px;
+}
+.text{
+    font-size: 23px;
+}
+.text-main{
+    font-size: 40px;
+}
+.image{
+    margin-top: -290px;
+    margin-left: 450px;
+}
+#text-span{
+    color: red;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
